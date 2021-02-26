@@ -53,7 +53,6 @@ const ContactForm = () => {
 
     return (
         <div className={styles.container}>
-            <h2>Contact Us</h2>
             <br />
             <br />
             <Form id="contact-form" className="form-fields" action="https://formspree.io/f/xleokwwz" method="POST" encType="multipart/form-data" onSubmit={submitForm}>
