@@ -9,6 +9,7 @@ export default function Home() {
         <title>Flight-Deck Avionics</title>
         <link rel="icon" href="/testlogo4.png" />
       </Head>
+      <h1>Flight-Deck Avionics</h1>
       <Jumbo />
     </div>
   )
