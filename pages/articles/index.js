@@ -1,5 +1,5 @@
 import ProjectList from '../../components/ProjectList';
-import {server} from '../../config/';
+import {server} from '../../config';
 
 export default function Project ({projects}) {
     return(
@@ -12,7 +12,7 @@ export default function Project ({projects}) {
 
 
 export const getStaticProps = async () => {
-    const res = await fetch(`${server}/api/projects`)
+    const res = await fetch(`${server}/api/articles`)
     const projects = await res.json()
   
     return {
