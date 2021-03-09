@@ -9,25 +9,25 @@ export const projects = [
     },
     {
       id: '2',
-      title: 'What’s multi-cloud? And why should developers care?',
-      excerpt: 'Most developers don’t care about multi-cloud. But they should...',
+      title: 'Bonanza Operators Thrilled With Flight-Deck Avionics Installed EFIS Cockpit',
+      excerpt: 'To bring in the new year, Flight-Deck Avionics has delivered another great cockpit, the V35 Bonanza...',
       body:
-        'Most developers don’t care about multi-cloud. But they should. Whether developers know it or not, their companies likely already have a multi-cloud environment.    Multi-cloud is a strategy where a business selects different services from different cloud providers',
+      'To bring in the new year, Flight-Deck Avionics has delivered another great cockpit, the V35 Bonanza (shown below) .  This project began with the idea of improving on existing Bonanza EFIS installations, completed by other shops around the country.  The Flight-Deck redesigned, CNC fabricated instrument panel incorporates a single piece construction, with an integral chart compartment, eliminating the common 4-peice design, and cardboard chart box.  The additional avionics suite includes a Garmin G500 Retrofit PFD/MFD EFIS System, and the new JP Instruments EDM730 Engine Data Monitor System.  All instrument lighting was updated, eliminating the original post-lamps.  The resulting layout provides a flowing, intuitive instrument scan, reducing pilot workload.'
     },
     {
       id: '3',
-      title: 'Here is how to make your website more accessible',
+      title: 'Flight-Deck Avionics Provides EHSI For Bell Operator',
       excerpt:
-        'An accessible website is one that’s optimized for all people, including those with disabilities...',
+        'This month Flight-Deck Avionics delivered this Bell 206L-3...',
       body:
-        'There are many things to consider when setting up a website, and accessibility is one factor that can sometimes be overlooked. An accessible website is one that’s optimized for all people, including those with impaired vision or hearing, motor difficulties, or learning disabilities',
+      'This month Flight-Deck Avionics delivered this Bell 206L-3 (shown below) with a low-cost Sandel SN3500 EHSI System, and Garmin GNS430W WAAS-GPS/NAV/COM.  The existing instrument panel was removed, re-coated, and then custom placarded for an updated look.'
     },
     {
       id: '4',
-      title: 'Why open ecosystems are the future of app development',
+      title: 'Flight-Deck Avionics Delivers Another EFIS Equipped Cessna 172',
       excerpt:
-        'When app stores entered the mainstream tech culture, they exposed developers to an audience of millions...',
+        'This Cessna 172 (shown below) was retrofitted this month with a Garmin GMA340 Audio Panel with 4-Place Intercom...',
       body:
-        'We can’t get enough of our mobile apps. There were 204 billion apps downloads last year, and that number is rising in 2020.  When app stores entered the mainstream tech culture, they exposed developers to an audience of millions who were keen to adopt the innovative capabilities',
+      'This Cessna 172 (shown below) was retrofitted this month with a Garmin GMA340 Audio Panel with 4-Place Intercom, dual GNS430W WAA-GPS NAV/COMs, GTX330 Mode S Transponder with Traffic Information Service (TIS), and G500 Primary PFD/MFD system.  New Flight-Deck Avionics designed instrument panels were installed in Citation Grey.  An updated instrument lighting package with a reupholstered glare-shield keeps everything visible.  The original red plastic trim on both the lower sub-panel, and control pedestal was replaced with new trim, in flat black.  The control wheels were updated, incorporating integral transmitter switches.  This 172 has transformed into a great IFR training platform, with room for future avionics expansion.'
     },
   ]
