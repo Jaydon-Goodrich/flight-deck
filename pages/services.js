@@ -1,11 +1,17 @@
 import styles from '../styles/Home.module.css'
 import Card from 'react-bootstrap/Card'
 import {Container, Row, Col} from 'react-bootstrap/'
+import Head from 'next/head'
+
 
 
 const services = () => {
     return (
         <div className={styles.container}>
+            <Head>
+                <title>Flight-Deck Avionics</title>
+                <link rel="icon" href="/testlogo4.png" />
+            </Head>
             <h2>Services</h2>
 
             <Container>

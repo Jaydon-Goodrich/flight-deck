@@ -1,10 +1,17 @@
 import styles from '../styles/Home.module.css';
 import { Container, Row, Col } from 'react-bootstrap';
 import Image from 'react-bootstrap/Image'
+import Head from 'next/head'
+
 
 
 const about = () => {
     return (
+        <div>
+        <Head>
+            <title>About</title>
+            <link rel="icon" href="/testlogo4.png" />
+        </Head>
         <Container>
             <Row><h2 className="pt-4">About Flight-Deck Avionics</h2></Row>
             <Row>
@@ -24,6 +31,7 @@ const about = () => {
                 </Col>
             </Row>
         </Container>
+        </div>
     )
 }
 
