@@ -9,7 +9,7 @@ const services = () => {
     return (
         <div className={styles.container}>
             <Head>
-                <title>Flight-Deck Avionics</title>
+                <title>Services</title>
                 <link rel="icon" href="/testlogo4.png" />
             </Head>
             <h2>Services</h2>
