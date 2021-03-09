@@ -3,6 +3,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 const Reviews = () => {
     return(
+        <div>
         <Carousel>
         <Carousel.Item>
             <img
@@ -46,6 +47,7 @@ const Reviews = () => {
             </Carousel.Caption>
         </Carousel.Item>
         </Carousel>
+        </div>
     );
 };
 
