@@ -31,7 +31,7 @@ const project = ({project}) => {
 }
 
 export const getStaticProps = async (context) => {
-    const res = await fetch(`${server}/api/projects/${context.params.id}`);
+    const res = await fetch(`${server}/api/articles/${context.params.id}`);
     
     const project = await res.json();
 
@@ -43,7 +43,7 @@ export const getStaticProps = async (context) => {
 }
 
 export const getStaticPaths = async () => {
-const res = await fetch(`${server}/api/projects/`);
+const res = await fetch(`${server}/api/articles/`);
     
 const projects = await res.json();
 
