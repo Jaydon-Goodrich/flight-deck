@@ -5,7 +5,7 @@ import Image from 'next/image';
 
 const ProjectItem = ({project}) => {
     return (
-        <Link href="/projects/[id]" as={`/projects/${project.id}`} >
+        <Link href="/articles/[id]" as={`/articles/${project.id}`} >
             <a className={projectStyles.card}>
                 <Image 
                 src={`/project${project.id}After.jpg`}
