@@ -12,7 +12,7 @@ export const projects = [
       title: 'Bonanza Operators Thrilled With Flight-Deck Avionics Installed EFIS Cockpit',
       excerpt: 'To bring in the new year, Flight-Deck Avionics has delivered another great cockpit, the V35 Bonanza...',
       body:
-      'To bring in the new year, Flight-Deck Avionics has delivered another great cockpit, the V35 Bonanza (shown below) .  This project began with the idea of improving on existing Bonanza EFIS installations, completed by other shops around the country.  The Flight-Deck redesigned, CNC fabricated instrument panel incorporates a single piece construction, with an integral chart compartment, eliminating the common 4-peice design, and cardboard chart box.  The additional avionics suite includes a Garmin G500 Retrofit PFD/MFD EFIS System, and the new JP Instruments EDM730 Engine Data Monitor System.  All instrument lighting was updated, eliminating the original post-lamps.  The resulting layout provides a flowing, intuitive instrument scan, reducing pilot workload.'
+      'To bring in the new year, Flight-Deck Avionics has delivered another great cockpit, the V35 Bonanza (shown below) .  This project began with the idea of improving on existing Bonanza EFIS installations, completed by other shops around the country.  The Flight-Deck redesigned, CNC fabricated instrument panel incorporates a single piece construction, with an integral chart compartment, eliminating the common 4-peice design, and cardboard chart box.  The additional avionics suite includes a Garmin G500 Retrofit PFD/MFD EFIS System, and the new JP Instruments EDM730 Engine Data Monitor System.  All instrument lighting was updated, eliminating the original post-lamps.  The resulting layout provides a flowing, intuitive instrument scan, reducing pilot workload.',
     },
     {
       id: '3',
@@ -20,7 +20,7 @@ export const projects = [
       excerpt:
         'This month Flight-Deck Avionics delivered this Bell 206L-3...',
       body:
-      'This month Flight-Deck Avionics delivered this Bell 206L-3 (shown below) with a low-cost Sandel SN3500 EHSI System, and Garmin GNS430W WAAS-GPS/NAV/COM.  The existing instrument panel was removed, re-coated, and then custom placarded for an updated look.'
+      'This month Flight-Deck Avionics delivered this Bell 206L-3 (shown below) with a low-cost Sandel SN3500 EHSI System, and Garmin GNS430W WAAS-GPS/NAV/COM.  The existing instrument panel was removed, re-coated, and then custom placarded for an updated look.',
     },
     {
       id: '4',
@@ -28,6 +28,6 @@ export const projects = [
       excerpt:
         'This Cessna 172 (shown below) was retrofitted this month with a Garmin GMA340 Audio Panel with 4-Place Intercom...',
       body:
-      'This Cessna 172 (shown below) was retrofitted this month with a Garmin GMA340 Audio Panel with 4-Place Intercom, dual GNS430W WAA-GPS NAV/COMs, GTX330 Mode S Transponder with Traffic Information Service (TIS), and G500 Primary PFD/MFD system.  New Flight-Deck Avionics designed instrument panels were installed in Citation Grey.  An updated instrument lighting package with a reupholstered glare-shield keeps everything visible.  The original red plastic trim on both the lower sub-panel, and control pedestal was replaced with new trim, in flat black.  The control wheels were updated, incorporating integral transmitter switches.  This 172 has transformed into a great IFR training platform, with room for future avionics expansion.'
+      'This Cessna 172 (shown below) was retrofitted this month with a Garmin GMA340 Audio Panel with 4-Place Intercom, dual GNS430W WAA-GPS NAV/COMs, GTX330 Mode S Transponder with Traffic Information Service (TIS), and G500 Primary PFD/MFD system.  New Flight-Deck Avionics designed instrument panels were installed in Citation Grey.  An updated instrument lighting package with a reupholstered glare-shield keeps everything visible.  The original red plastic trim on both the lower sub-panel, and control pedestal was replaced with new trim, in flat black.  The control wheels were updated, incorporating integral transmitter switches.  This 172 has transformed into a great IFR training platform, with room for future avionics expansion.',
     },
   ]
