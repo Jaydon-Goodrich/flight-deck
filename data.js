@@ -1,11 +1,11 @@
 export const projects = [
     {
       id: '1',
-      title: 'GitHub introduces dark mode and auto-merge pull request',
+      title: '- State Law Enforcement Agencies Select Flight-Deck Avionics For EFIS Retrofit -',
       excerpt:
-        'GitHub today announced a bunch of new features at its virtual GitHub...',
+        'As an early holiday gift, Flight-Deck Avionics delivered this Cessna TU206G (shown below) to a Utah law enforcement agency...',
       body:
-        'GitHub today announced a bunch of new features at its virtual GitHub Universe conference including dark mode, auto-merge pull requests, and Enterprise Server 3.0. In the past couple of years, almost all major apps have rolled out a dark theme for its users, so why not GitHub?',
+        'As an early holiday gift, Flight-Deck Avionics delivered this Cessna TU206G (shown below) to a Utah law enforcement agency.  A custom pilots instrument panel was designed, CNC fabricated, and finished in Citation grey.  The Garmin G500 Retrofit PFD/MFD system was added, along with a GNS430W WAAS-GPS/NAV/COM and GTX330 Mode S Transponder with Traffic Info Service (TIS).  Instrument panel lighting was updated on the pilot side.  To meet the departments budget, the existing copilot instrument panel overlay was painted to match with great results.',
     },
     {
       id: '2',

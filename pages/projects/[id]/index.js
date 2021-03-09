@@ -1,5 +1,6 @@
 import Link from 'next/link';
 import {server} from '../../../config';
+import Image from 'next/image';
 // import Meta from '../../../components/Meta';
 
 
@@ -9,9 +10,22 @@ const project = ({project}) => {
 
     return <>
         {/* <Meta title={article.title} description={article.excerpt}/> */}
-        <h1>{project.title}</h1>
+        <h3>{project.title}</h3>
         <p>{project.body}</p>
+        <Image 
+            src={`/project${project.id}Before.jpg`}
+            alt="Before picture"
+            width={500}
+            height={500}/>
         <br />
+        <p>Before</p>
+        <Image 
+            src={`/project${project.id}After.jpg`}
+            alt="After picture"
+            width={500}
+            height={500}/>
+        <br />
+        <p>After</p>
         <Link href='/'>Go Back</Link>
     </>
 }
