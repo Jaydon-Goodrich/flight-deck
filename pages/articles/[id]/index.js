@@ -26,7 +26,7 @@ const project = ({project}) => {
             height={500}/>
         <br />
         <p>After</p>
-        <Link href='/projects'>Go Back</Link>
+        <Link href='/articles'>Go Back</Link>
     </>
 }
 
