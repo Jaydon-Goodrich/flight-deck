@@ -5,6 +5,8 @@ import Reviews from '../components/Reviews'
 import AboutSum from  '../components/AboutSum'
 import ServiceSum from  '../components/ServiceSum'
 import ProjectSum from  '../components/ProjectSum'
+import Image from 'next/image';
+
 
 
 
@@ -15,7 +17,13 @@ export default function Home() {
         <title>Flight-Deck Avionics</title>
         <link rel="icon" href="/testlogo4.png" />
       </Head>
-      <h1>Flight-Deck Avionics</h1>
+      <Image 
+        src={`/flight-deck-logo.jpg`}
+        alt="Logo of flight-deck avionics"
+        width={500}
+        height={500}
+      />
+      {/* <h1 style={{textAlign:'center'}}>Flight-Deck Avionics</h1> */}
       <AboutSum/>
       <ServiceSum />
       <ProjectSum />
