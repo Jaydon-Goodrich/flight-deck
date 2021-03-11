@@ -7,13 +7,13 @@ const Jumbo = () => {
 
     return (
         <Jumbotron>
-            <h1>Reach Out For A Quote</h1>
+            <h1 style={{textAlign:'right'}}>Reach Out For A Quote</h1>
             <p>
                 This is a simple hero unit, a simple jumbotron-style component for calling
                 extra attention to featured content or information.
             </p>
             <p>
-                <Button variant="dark" href="/contact">Contact Us</Button>
+                <Button style={{float:'right'}} variant="dark" href="/contact">Contact Us</Button>
             </p>
         </Jumbotron>
     );

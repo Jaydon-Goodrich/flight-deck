@@ -1,10 +1,11 @@
 import Carousel from 'react-bootstrap/Carousel';
+import Jumbotron from 'react-bootstrap/Jumbotron';
 
 
 const Reviews = () => {
     return(
         <div>
-        <Carousel>
+        <Carousel style={{maxWidth:956, paddingBottom:30}}>
         <Carousel.Item>
             <img
             className="d-block w-100"
