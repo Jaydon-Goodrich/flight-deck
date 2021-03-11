@@ -15,8 +15,8 @@ const Reviews = () => {
             height={500}
             />
             <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h3>Jim and his team are great! Would recommend for all!</h3>
+            <p style={{textAlign:'right', fontSize:20}}>-James Mayfield</p>
             </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>

@@ -4,8 +4,8 @@ import Button from 'react-bootstrap/Button'
 const ServiceSum = () => {
     return(
         <div>
-            <Jumbotron>
-                <h1 style={{textAlign:'right'}}>Services</h1>
+            <Jumbotron style={{paddingBottom:80}}>
+                <h1 style={{textAlign:'right'}}>Top of The Line Services</h1>
                 <p>
                     This is a simple hero unit, a simple jumbotron-style component for calling
                     extra attention to featured content or information.
