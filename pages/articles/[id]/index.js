@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import {server} from '../../../config';
 import Image from 'next/image';
+import {Container, Row, Col}from 'react-bootstrap';   
 // import Meta from '../../../components/Meta';
 
 
@@ -14,21 +15,29 @@ const project = ({project}) => {
         <p style={{textAlign:'center'}}>{project.body}</p>
         <Link href='/articles'>Go Back</Link>
         <br />
-        <div style={{display:'block', marginLeft:'auto', marginRight:'auto'}}>
-            <Image 
-                src={`/project${project.id}Before.jpg`}
-                alt="Before picture"
-                width={500}
-                height={500}/>
-            <br />
-        </div>
+        <Container>
+            <Row className="justify-content-md-center">
+                <Col xs={12} sm={4} md={4}>
+                    <Image 
+                        src={`/project${project.id}Before.jpg`}
+                        alt="Before picture"
+                        width={500}
+                        height={500}/>
+                </Col>
+            </Row>
+        
+        
         <p style={{textAlign:'center'}}>Before</p>
+        <Row className="justify-content-md-center">
+                <Col xs={12} sm={4} md={4}>
         <Image 
             src={`/project${project.id}After.jpg`}
             alt="After picture"
             width={500}
             height={500}/>
-        <br />
+            </Col>
+        </Row>
+        </Container>
         <p style={{textAlign:'center'}}>After</p>
     </>
 }
