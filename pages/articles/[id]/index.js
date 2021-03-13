@@ -10,23 +10,26 @@ const project = ({project}) => {
 
     return <>
         {/* <Meta title={article.title} description={article.excerpt}/> */}
-        <h3>{project.title}</h3>
-        <p>{project.body}</p>
-        <Image 
-            src={`/project${project.id}Before.jpg`}
-            alt="Before picture"
-            width={500}
-            height={500}/>
+        <h3 style={{textAlign:'center'}}>{project.title}</h3>
+        <p style={{textAlign:'center'}}>{project.body}</p>
+        <Link href='/articles'>Go Back</Link>
         <br />
-        <p>Before</p>
+        <div style={{display:'block', marginLeft:'auto', marginRight:'auto'}}>
+            <Image 
+                src={`/project${project.id}Before.jpg`}
+                alt="Before picture"
+                width={500}
+                height={500}/>
+            <br />
+        </div>
+        <p style={{textAlign:'center'}}>Before</p>
         <Image 
             src={`/project${project.id}After.jpg`}
             alt="After picture"
             width={500}
             height={500}/>
         <br />
-        <p>After</p>
-        <Link href='/articles'>Go Back</Link>
+        <p style={{textAlign:'center'}}>After</p>
     </>
 }
 
