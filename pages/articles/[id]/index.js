@@ -13,11 +13,11 @@ const project = ({project}) => {
         {/* <Meta title={article.title} description={article.excerpt}/> */}
         <h3 style={{textAlign:'center'}}>{project.title}</h3>
         <p style={{textAlign:'center'}}>{project.body}</p>
-        <Link href='/articles'>Go Back</Link>
+        <p style={{textAlign:'center'}}><Link href='/articles'>Go Back</Link></p>
         <br />
         <Container>
             <Row className="justify-content-md-center">
-                <Col xs={12} sm={4} md={4}>
+                <Col xs={12} sm={6} md={6}>
                     <Image 
                         src={`/project${project.id}Before.jpg`}
                         alt="Before picture"
@@ -27,9 +27,9 @@ const project = ({project}) => {
             </Row>
         
         
-        <p style={{textAlign:'center'}}>Before</p>
+        <h4 style={{textAlign:'center'}}>Before</h4>
         <Row className="justify-content-md-center">
-                <Col xs={12} sm={4} md={4}>
+                <Col xs={12} sm={6} md={6}>
         <Image 
             src={`/project${project.id}After.jpg`}
             alt="After picture"
@@ -38,7 +38,7 @@ const project = ({project}) => {
             </Col>
         </Row>
         </Container>
-        <p style={{textAlign:'center'}}>After</p>
+        <h4 style={{textAlign:'center'}}>After</h4>
     </>
 }
 
