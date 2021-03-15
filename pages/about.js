@@ -11,6 +11,9 @@ const about = () => {
         <Head>
             <title>About</title>
             <link rel="icon" href="/testlogo4.png" />
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <meta charSet="utf-8" />
+            <meta name="description" content='About Flight-Deck Avionics'/>
         </Head>
         <Container>
             <Row><h2 className="pt-4">About Flight-Deck Avionics</h2></Row>
