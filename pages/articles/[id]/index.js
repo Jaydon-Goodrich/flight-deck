@@ -21,8 +21,9 @@ const project = ({project}) => {
                     <Image 
                         src={`/project${project.id}Before.jpg`}
                         alt="Before picture"
-                        width={500}
-                        height={500}/>
+                        width={1000}
+                        height={500}
+                         />
                 </Col>
             </Row>
         
@@ -33,7 +34,7 @@ const project = ({project}) => {
         <Image 
             src={`/project${project.id}After.jpg`}
             alt="After picture"
-            width={500}
+            width={1000}
             height={500}/>
             </Col>
         </Row>

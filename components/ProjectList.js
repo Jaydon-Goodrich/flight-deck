@@ -5,7 +5,7 @@ const ProjectList = ({projects}) => {
     return (
         <div className={projectStyles.grid}>
             {projects.map(project => (
-                <ProjectItem project={project} />
+                <ProjectItem project={project} key={project.id} />
             ))}
         </div>
     )

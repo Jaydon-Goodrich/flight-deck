@@ -10,7 +10,7 @@ const ProjectItem = ({project}) => {
                 <Image 
                 src={`/project${project.id}After.jpg`}
                 alt="After picture"
-                width={500}
+                width={1000}
                 height={500}/>
                 <h3>{project.title} &rarr;</h3>
                 <p>{project.excerpt}</p>
