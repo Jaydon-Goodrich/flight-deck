@@ -10,7 +10,7 @@ export default function Project ({projects}) {
                 <title>Projects</title>
                 <link rel="icon" href="/testlogo4.png" />
             </Head>
-            <h3>Projects page</h3>
+            <h3 style={{textAlign:'center'}}>Projects</h3>
             <ProjectList projects={projects} />
         </div>
     );

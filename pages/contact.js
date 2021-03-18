@@ -9,7 +9,7 @@ const contact = () => {
                 <title>Contact Us</title>
                 <link rel="icon" href="/testlogo4.png" />
             </Head>
-            <h2>Contact Us</h2>
+            <h2 style={{textAlign:'center'}}>Contact Us</h2>
             <ContactForm />
         </div>
     )
